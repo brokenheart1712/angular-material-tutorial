@@ -2,12 +2,12 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { 
-	MatInputModule, 
-	MatCardModule, 
-	MatButtonModule,
+import {
+  MatInputModule,
+  MatCardModule,
+  MatButtonModule,
   MatToolbarModule,
-  MatExpansionModule,
+  MatExpansionModule
 } from '@angular/material';
 
 import { AppComponent } from './app.component';
@@ -30,9 +30,9 @@ import { PostListComponent } from './post-list/post-list.component';
     MatCardModule,
     MatButtonModule,
     MatToolbarModule,
-    MatExpansionModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
